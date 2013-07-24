@@ -10,8 +10,8 @@ header {
     height: 600px;
     background-color: #2C3E50;
     overflow: hidden;
-    position:absolute;
-    z-index: 2;
+    position: absolute;
+    z-index: 3;
 }
 
 .logo {
@@ -26,7 +26,7 @@ header {
     font-size: 3.0em;
     text-align:center;
     line-height: 100px;
-    z-index: 2;
+    z-index: 3;
     font-weight: bold;
 }
 
@@ -51,12 +51,21 @@ header {
     color: #1ABC9C;
 }
 
-main {
-    height: 2000px;
+.main {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 600px;
 }
 
 footer {
     width: 100%;
     height: 300px;
     background-color: #1ABC9C;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 200;
+    line-height: 1.5em;
 }
