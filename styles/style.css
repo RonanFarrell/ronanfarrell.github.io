@@ -4,32 +4,18 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 200;
     background-color: #FFF;
+    color: #555;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 header {
     width: 100%;
     background-color: #2C3E50;
     text-align: center;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-    color: #555;
-}
-
-.about {
-    text-align: justify;
-    display: inline-block;
-    width: 700px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.logoContainer {
-    width: 700px;
-    height: 100px;
-    margin-bottom: 80px;
 }
 
 .logo {
@@ -42,6 +28,15 @@ p {
     font-size: 2.5em;
     line-height: 100px;
     margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.about {
+    text-align: justify;
+    display: inline-block;
+    width: 700px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .about p {
@@ -51,7 +46,6 @@ p {
 
 .about .lower {
     font-size: 1.2em;
-    letter-spacing: 1px;
 }
 
 .highlight {
@@ -74,4 +68,57 @@ p {
 .main {
     width: 700px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 400px)  {
+    .about, .main {
+        width: 100%;
+        text-align: left;
+    }
+
+    .about {
+        margin-bottom: 30px;
+    }
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about p {
+        font-size: 1.2em;
+    }
+
+    .about .lower {
+        font-size: 1.0em;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .about, .main {
+        width: 100%;
+        text-align: left;
+    }
+
+    .about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about p {
+        font-size: 1.2em;
+    }
+
+    .about .lower {
+        font-size: 1.0em;
+    }
 }
