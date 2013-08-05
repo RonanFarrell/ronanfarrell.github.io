@@ -66,32 +66,36 @@ header {
 }
 
 .main {
-    width: 700px;
+    width: 640px;
     margin: 0 auto;
+    text-align: center;
 }
 
-@media screen and (max-width: 400px)  {
-    .about, .main {
-        width: 100%;
-        text-align: left;
-    }
+.main p {
+    text-align: left;
+    font-weight: 400;
+}
 
-    .about {
-        margin-bottom: 30px;
-    }
+.main .highlight {
+    color: #1ABC9C;
+    font-size: 1.0em;
+}
 
-    p {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 200;
+}
 
-    .about p {
-        font-size: 1.2em;
-    }
+h2 span {
+    display: block;
+    font-size: 0.6em;
+    font-weight: 600;
+}
 
-    .about .lower {
-        font-size: 1.0em;
-    }
+img {
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 600px)  {
@@ -120,5 +124,10 @@ header {
 
     .about .lower {
         font-size: 1.0em;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
     }
 }
