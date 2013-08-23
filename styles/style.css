@@ -10,7 +10,8 @@ body {
 header {
     margin: 0 auto;
     margin-top: 100px;
-    width: 70%;
+    margin-bottom: 100px;
+    width: 60%;
     max-width: 1000px;
     background-color: #2C3E50;
     text-align: right;
@@ -22,30 +23,25 @@ header {
 header p {
     margin: 5%;
     color: #ECF0F1;
-    font-size: 2.0em;
+    font-size: 3.5em;
     line-height: 1.5em;
 }
 
 .main {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     max-width: 1000px;
     min-width: 400px;
 }
 
 .portfolio {
     display: inline-block;
-    width: 45%;
+    width: 100%;
     min-width: 400px;
     margin-right: 5%;
-    text-align: right;
-}
-
-.portfolio:nth-child(even) {
-    margin-right: 0;
-    margin-left: 5%;
-    float: right;
-    text-align: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .portfolio img {
@@ -53,12 +49,29 @@ header p {
     height: auto;
 }
 
+.portfolio p {
+    font-size: 1.5em;
+}
+
+.portfolio a {
+    font-size: 1.3em;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #16A085;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.portfolio a:hover {
+    color: #1ABC9C;
+}
+
 a {
     text-decoration: none;
 }
 
 footer {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
@@ -68,8 +81,10 @@ footer {
 
 footer a {
     font-size: 2.0em;
+    font-weight: 300;
     color: #2C3E50;
     line-height: 100px;
+    font-variant: small-caps;
 }
 
 footer a:hover {
@@ -84,6 +99,7 @@ footer a:hover {
 
     header {
         margin: 0;
+        margin-bottom: 50px;
     }
 
     header p {
@@ -92,16 +108,37 @@ footer a:hover {
         margin: 5%;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     .portfolio {
         margin: 0;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 1.3em;
+    }
+
+    .portfolio a {
+        text-align: center;
+        display: block;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     footer {
         border-top: none;
+        margin-top: 0;
     }
 
     footer a {
         font-size: 1.7em;
-        border-bottom: 1px solid #2C3E50;
     }
 }
