@@ -47,6 +47,7 @@ header p {
 .portfolio img {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .portfolio p {
@@ -94,7 +95,6 @@ footer a:hover {
 @media only screen and (max-device-width: 480px) {
     header, .main, footer, .portfolio {
         width: 100%;
-        min-width: 0px;
     }
 
     header {
@@ -142,3 +142,23 @@ footer a:hover {
         font-size: 1.7em;
     }
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+    header, .main, footer, .portfolio {
+        width: 100%;
+    }
+
+    header {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    header p {
+        margin: 5%;
+        color: #ECF0F1;
+        font-size: 3.0em;
+        line-height: 1.5em;
+    }
+} 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ImploExplo</title>
+
+		<link type="text/css" rel="stylesheet" href="styles/styles.css"></link>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+	</head>
+
+	<body>
+		<div id="menu">
+            <div id="main" class="menu">
+        		<h1>ImploExplo</h1>
+                <a href="#" class="menuItem start_local">start</a>
+            </div>
+        </div>
+        <!-- end menu -->
+
+        <div id="canvasContainer" style="display: none;">
+            <canvas id="surface" width="900" height="600"></canvas>
+        </div>
+
+        <div id="timeContainer" style="display: none;">
+            <p id="time"></p>
+        </div>
+
+        <script src="external/jquery.min.js"></script>
+        <script src="external/Box2dWeb.min.js"></script>
+        <script src="js/Globals.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/Gamepad.js"></script>
+        <script src="js/Controls.js"></script>
+		<script src="js/Player.js"></script>
+		<script src="js/LevelEntities.js"></script>
+		<script src="js/Level.js"></script>
+		<script src="js/Game.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

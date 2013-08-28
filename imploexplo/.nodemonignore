@@ -1,0 +1,13 @@
+/audio/*
+/external/*
+/img/*
+/js/*
+/levels/*
+/styles/*
+.git
+.gitignore
+index.html
+editor.html
+favicon.ico
+README.md
+.DS_Store

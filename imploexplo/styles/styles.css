@@ -1,0 +1,207 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	background-color: #000;
+	color: #BBB;
+	letter-spacing: 5px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+div {
+	position: absolute;
+}
+
+#canvasContainer {
+	left: 50%;
+	top: 50%;
+	margin-left: -450px;
+	margin-top: -300px;
+	z-index: -1;
+	background-color: #000;
+}
+
+canvas {
+	z-index: 1;
+}
+
+#surface {
+	background: #2E3235;
+}
+
+h1 {
+	font-weight: 300;
+	color: #BBB;
+	text-align: center;
+	font-size: 4.0em;
+}
+
+h2 {
+	font-weight: 100;
+	text-align: center;
+}
+
+p {
+	letter-spacing: 2px;
+}
+
+.login_info {
+	text-align: center;
+}
+
+span {
+	margin-left: 139px;
+}
+
+.menuItem {
+	text-decoration: none;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	font-size: 2.0em;
+	color: #BBB;
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: 	all 0.5s ease-in-out;
+	-o-transition: 		all 0.5s ease-in-out;
+	-ms-transition: 	all 0.5s ease-in-out;
+	transition: 		all 0.5s ease-in-out;
+}
+
+.menuItem:visited {
+	color: #BBB;
+}
+
+.menuItem:hover {
+	color: #222;
+	background-color: #3498DB;
+}
+
+#menu {
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	width: 400px;
+	height: 400px;
+}
+
+.menu {
+	width: 400px;
+	height: 400px;
+	-webkit-transition: margin 0.5s ease-in-out;
+	-moz-transition: 	margin 0.5s ease-in-out;
+	-o-transition: 		margin 0.5s ease-in-out;
+	-ms-transition: 	margin 0.5s ease-in-out;
+	transition: 		margin 0.5s ease-in-out;
+}
+
+.multiplayer_info {
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
+
+#local {
+	margin-left: 400px;
+}
+
+#online {
+	margin-left: -400px;
+}
+
+#options {
+	margin-top: -400px;
+}
+
+#leaderboards {
+	margin-top: 400px;
+}
+
+#login {
+	margin-left: -400px;
+}
+
+#waiting_quick {
+	margin-top: -400px;
+}
+
+#timeContainer {
+	left: 50%;
+	top: 40%;
+	margin-left: -300px;
+	width: 600px;
+	text-align: center;
+	font-size: 3.0em;
+}
+
+.tutorial
+{
+	background-color: #000;
+	opacity: 0.5;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	color: #2E3235;
+	font-weight: 100;
+	letter-spacing: 0;
+}
+
+.arrow
+{
+	background-color: rgba(0,0,0,0.0);
+	background-image: url(../img/arrow.png);
+	background-size: 100%;
+}
+
+.left
+{
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.right
+{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.down
+{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+#join_private input {
+	font-size: 0.5em;
+}
+
+#loginBtn {
+	margin-top: 100px;
+}
+
+.leaderboard_container {
+	width: 100%;
+	height: 270px;
+	overflow: scroll;
+}
+
+.lb_tbl {
+	width: 100%;
+}
+
+th {
+	font-weight: 100;
+	line-height: 1.5em;
+}
