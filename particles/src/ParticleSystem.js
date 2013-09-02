@@ -1,6 +1,11 @@
 var gravity = 0.4;
+var numParticles = 0;
+var numParticlesDisplay = document.getElementById('numParticles');
 
 function Particle(x, y, xDir, yDir, r) {
+    ++numParticles;
+    numParticlesDisplay.textContent = 'Particles: ' + numParticles;
+
     this.x = x;
     this.y = y;
     this.r = r;
@@ -78,6 +83,7 @@ ParticleEmmiter.prototype.update = function(context) {
         // Remove dead particles
         if (this.particles[i].ttl < 0) {
             this.particles.splice(i, 1);
+            --numParticles;
         }
     }
 };

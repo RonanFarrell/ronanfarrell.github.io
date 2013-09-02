@@ -1,7 +1,6 @@
-var canvas = document.createElement('canvas');
+var canvas = document.getElementById('surface');
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-document.body.appendChild(canvas);
+canvas.height = window.innerHeight - 100;
 var ctx = canvas.getContext('2d');
 
 var particleEmitters = [],
