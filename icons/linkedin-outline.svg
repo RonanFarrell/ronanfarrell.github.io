@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="384px" height="384px" viewBox="0 0 384 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>linkedin-outline</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-social-linkedin-outline" sketch:type="MSLayerGroup" fill="#ECF0F1">
+            <g id="Group" sketch:type="MSShapeGroup">
+                <g transform="translate(63.000000, 64.000000)" id="Shape">
+                    <path d="M55.8,256 L55.8,84.9 L0.9,84.9 L0.9,256 L55.8,256 L55.8,256 L55.8,256 L55.8,256 Z M30.4,59 C48.7,59 60.1,45.9 60.1,29.5 C59.8,12.8 48.7,0 30.7,0 C12.7,0 1,12.8 1,29.5 C1,45.9 12.4,59 30,59 L30.4,59 L30.4,59 L30.4,59 L30.4,59 Z M30.4,59"></path>
+                    <path d="M193.6,81 C164.5,81 152,97.4 144,108.8 L144,85 L89,85 L89,256 L144,256 L144,158.6 C144,153.6 144.4,148.6 145.9,145.1 C149.9,135.1 158.9,124.8 174.1,124.8 C194,124.8 202,140.1 202,162.5 L202,256 L257,256 L257,156.1 C257,104.8 229.8,81 193.6,81 L193.6,81 L193.6,81 L193.6,81 Z M193.6,81"></path>
+                </g>
+                <path d="M353.2,0 L32.8,0 C15.3,0 0,12.6 0,29.9 L0,351 C0,368.4 15.3,383.9 32.8,383.9 L353.1,383.9 C370.7,383.9 383.9,368.3 383.9,351 L383.9,29.9 C384,12.6 370.7,0 353.2,0 L353.2,0 L353.2,0 L353.2,0 Z M350,352 L35.1,352 C33.3,352 32,350.6 32,348.9 L32,34 C32,32.9 33,32 34,32 L350,32 C351,32 352,33 352,34 L352,350 C352,350.9 351.1,352 350,352 L350,352 L350,352 L350,352 Z M350,352" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

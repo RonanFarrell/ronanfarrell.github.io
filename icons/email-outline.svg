@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="384px" height="256px" viewBox="0 0 384 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>email-outline</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-email-outline" sketch:type="MSLayerGroup" fill="#ECF0F1">
+            <path d="M0,0 L0,256 L384,256 L384,0 L0,0 L0,0 L0,0 L0,0 Z M192,139.9 L29.2,16 L354.8,16 L192,139.9 L192,139.9 L192,139.9 L192,139.9 Z M16,240 L16,26.1 L131.1,113.7 L63,191 L65,193 L143.9,123.4 L192,160 L240.1,123.4 L319,193 L321,191 L252.9,113.6 L368,26.1 L368,240 L16,240 L16,240 L16,240 L16,240 Z M16,240" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
