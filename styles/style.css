@@ -35,6 +35,7 @@ header {
     padding: 150px 0;
     text-align: center;
     background-color: #2980b9;
+    background-image: url(../images/square_bg.png);
     overflow: hidden;
 }
 
@@ -49,6 +50,7 @@ footer {
     padding: 100px 0;
     text-align: center;
     background-color: #2980b9;
+    background-image: url(../images/square_bg.png);
 }
 
 footer a {
