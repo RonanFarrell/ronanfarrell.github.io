@@ -128,6 +128,7 @@ footer a:hover {
 }
 
 .mail {
+    background: url(../icons/email.svg);
     background: url(../icons/email-outline.svg);
 }
 
@@ -136,6 +137,7 @@ footer a:hover {
 }
 
 .twitter {
+    background: url(../icons/twitter.svg);
     background: url(../icons/twitter-outline.svg);
 }
 
@@ -144,6 +146,7 @@ footer a:hover {
 }
 
 .github {
+    background: url(../icons/github.svg);
     background: url(../icons/github-outline.svg);
 }
 
