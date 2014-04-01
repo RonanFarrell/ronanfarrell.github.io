@@ -28,6 +28,7 @@ a {
     text-decoration: none;
     border: 1px solid #ECF0F1;
     transition: all 0.1s linear;
+    border-radius: 15px;
 }
 
 header {
@@ -182,7 +183,8 @@ footer a:hover {
     }
 
     a {
-        padding: 8px;
+        /*padding: 10px;*/
+        font-size: 1.4em;
     }
 
     .portfolio a {
@@ -196,6 +198,7 @@ footer a:hover {
 
     footer a {
         display: block;
+        border: 1px solid #ECF0F1;
     }
 
     .portfolio img {
@@ -223,6 +226,7 @@ footer a:hover {
 
     footer a {
         display: block;
+        border: 1px solid #ECF0F1;
     }
 
     .portfolio img {
