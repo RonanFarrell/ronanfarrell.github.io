@@ -10,14 +10,15 @@ body {
 }
 
 h1 {
-    font-size: 3.0em;
+    font-size: 4.0em;
     font-weight: 300;
 }
 
 span {
     display: block;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: 100;
+    letter-spacing: 0.13em;
 }
 
 a {
@@ -91,6 +92,7 @@ footer a:hover {
     margin: 0 0 20px 0;
     font-size: 2.5em;
     font-weight: 100;
+    letter-spacing: -0.05em;
 }
 
 .portfolio p {
