@@ -143,15 +143,6 @@ footer a:hover {
     background: url(../icons/email.svg);
 }
 
-.twitter {
-    background: url(../icons/twitter.svg);
-    background: url(../icons/twitter-outline.svg);
-}
-
-.twitter:hover {
-    background: url(../icons/twitter.svg);
-}
-
 .github {
     background: url(../icons/github.svg);
     background: url(../icons/github-outline.svg);
