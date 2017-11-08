@@ -4,8 +4,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-family: sans-serif;
     color: #ECF0F1;
 }
 
@@ -17,8 +16,6 @@ h1 {
 span {
     display: block;
     font-size: 0.5em;
-    font-weight: 100;
-    letter-spacing: 0.13em;
 }
 
 a {
@@ -27,9 +24,8 @@ a {
     font-size: 1.5em;
     color: #ECF0F1;
     text-decoration: none;
-    border: 1px solid #ECF0F1;
+    border: 2px solid #ECF0F1;
     transition: all 0.1s linear;
-    border-radius: 15px;
 }
 
 header {
@@ -54,11 +50,11 @@ footer {
 }
 
 footer a {
-    border: 1px solid #2980b9;
+    border: 2px solid #2980b9;
 }
 
 footer a:hover {
-    border: 1px solid #ECF0F1;
+    border: 2px solid #ECF0F1;
 }
 
 .main {
@@ -90,7 +86,6 @@ footer a:hover {
     margin: 0 0 20px 0;
     font-size: 2.5em;
     font-weight: 100;
-    letter-spacing: -0.05em;
 }
 
 .portfolio p {
@@ -110,7 +105,7 @@ footer a:hover {
 
 .portfolio a:hover {
     color: #2980b9;
-    border: 1px solid #2980b9;
+    border: 2px solid #2980b9;
 }
 
 .imploexplo, .particles {
@@ -129,11 +124,10 @@ footer a:hover {
 
 .portaless a {
     color: #111;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 .mail {
-    background: url(../icons/email.svg);
     background: url(../icons/email-outline.svg);
 }
 
@@ -142,7 +136,6 @@ footer a:hover {
 }
 
 .github {
-    background: url(../icons/github.svg);
     background: url(../icons/github-outline.svg);
 }
 
